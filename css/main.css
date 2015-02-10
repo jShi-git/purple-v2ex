@@ -7,8 +7,8 @@ body{overflow: hidden;}
 #k_tabbar{display:inline-block;position:fixed;top:0;left:100px;width:60px;height:100%;vertical-align:top;text-align:center;}
 #k_tabbar a{display:block;vertical-align:middle;padding:15px 0;color:#fff;margin-right:0;}
 #k_tabbar a:hover,#k_tabbar a.tab_current:link,#k_tabbar a.tab_current:visited,#k_tabbar a.tab_current:active{background-color:#6c50c1;color:#fff;}
-.k_color_dark{background-color:#6c50c1;}
-.k_color_light{background-color:#9286d2;}
+.k_color_dark{background-color:#6c50c1;background:-webkit-gradient(linear, 0 0, 0 100%, from(#6c50c1), to(#8d76e4));}
+.k_color_light{background-color:#9286d2;background:-webkit-gradient(linear, 0 0, 0 100%, from(#8d76e4), to(#9a8de2));}
 span a.node.k_color_node{background-color:#B9D998;color:#FFF;}
 .k_color_hover:hover{background-color:#2980B9;}
 .k_color_item{background-color:#FFF; position: relative;}
@@ -21,11 +21,10 @@ span a.node.k_color_node{background-color:#B9D998;color:#FFF;}
 #Wrapper .sep20{display:none;}
 
 #Main{width:auto;margin:0px 275px 0px 0px;}
-#Main img.avatar{width:40px;height:40px;max-width:50px!important;max-height:50px!important;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin-left:-10px;margin-bottom:-5px;}
+#Main img.avatar{width:40px;height:40px;border-radius:8px;margin-left:-10px;margin-bottom:-5px;}
 #Main .cell table tr td:nth-child(3),#Main .cell table tr td:nth-child(4){min-height:60px;padding-top:15px;}
 #Main .box .inner{padding:10px 24px 20px 24px;border-bottom:0px;}
-#Main .box:nth-child(2) .cell:nth-child(2){padding:10px 28px!important;}
-#Main .box:nth-child(2) .cell:nth-child(n+2),#Main .cell{padding:10px 24px 20px 24px;}
+#Main .cell{padding:0px 14px 8px;}
 #Main .box .topic_buttons{border-top:1px solid #e6e6e6;background:#f3f3f3;margin-top:20px;}
 #Main div[id*="r_"].cell table tr td:nth-child(3){padding-top:0px;}
 
@@ -37,7 +36,7 @@ span a.node.k_color_node{background-color:#B9D998;color:#FFF;}
 .cell > table{table-layout:fixed;}
 .fade{color:#AAA;}
 .inner{padding-top:10px;padding-bottom:10px;}
-.item_title{padding-top:10px;}
+.item_title{padding-top:10px; font-size: 1em;}
 .msl{width:615px;}
 .no{color:#BBB;padding:4px 5px;}
 .snow{color:#CCC;}
