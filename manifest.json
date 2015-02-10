@@ -1,9 +1,9 @@
 {
-  "name": "v2ex.purple",
+  "name": "purple-v2ex",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "V2EX UI Extension",
-  "homepage_url": "https://github.com/jShi-git/v2ex.purple",
+  "description": "V2EX 自定义样式",
+  "homepage_url": "https://github.com/jShi-git/purple-v2ex",
   "author": "stuart",
   "options_page": "options.html",
 
