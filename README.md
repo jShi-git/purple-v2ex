@@ -1,2 +1,4 @@
-# purple-v2ex
-个性化v2ex浏览界面
+#purple-v2ex
+
+##效果预览
+<img src="snap/1.png" alt="首页" />
