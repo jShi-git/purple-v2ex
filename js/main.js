@@ -1,9 +1,3 @@
-/**
- * v2ex皮肤
- * @auth stuart.shi
- * @link http://www.shizuwu.cn
- * @time 2015
- */
 var niceConfig = {
     "cursorwidth": "3",
     "cursoropacitymax": "0.8",

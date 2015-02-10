@@ -1,9 +1,3 @@
-/**
- * v2ex皮肤
- * @auth stuart.shi
- * @link http://www.shizuwu.cn
- * @time 2015
- */
 body{overflow: hidden;}
 #Top,#Bottom,#Tabs,#Rightbar{display:none;}
 #Rightbar{position: relative;}
